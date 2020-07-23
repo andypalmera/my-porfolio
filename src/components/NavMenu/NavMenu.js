@@ -10,7 +10,7 @@ const NavMenu = () => {
             <div className="nav-menu-image-container">{<img src={ComputerImage} alt="screen" />}</div>
             <div className="nav-menu-items-container">
                 <a href="www.google.com" className="nav-menu-title">
-                    <span>{'<'}</span> About Me <span>{'/>'}</span>
+                    <span className="simbol">{'<'}</span> About Me <span className="simbol">{'/>'}</span>
                 </a>
                 <img src={PencilImage} alt="pencil" className="pencil" />
                 <ButtonsNav />

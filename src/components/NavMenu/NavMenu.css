@@ -1,5 +1,3 @@
-.nav-menu {
-}
 .nav-menu-image-container {
     width: 600px;
     margin: auto;
@@ -22,13 +20,15 @@
     color: black;
     padding: 20px;
     font-family: 'Indie Flower', cursive;
+    font-weight: bold;
 }
 .pencil {
     width: 200px;
     margin: auto;
     display: block;
 }
-span {
+.simbol {
     color: rgb(223, 216, 117);
     font-size: 80px;
+    font-weight: bold;
 }
