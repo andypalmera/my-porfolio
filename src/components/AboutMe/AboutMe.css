@@ -1,7 +1,7 @@
 .about-me {
     margin-top: 80px;
 }
-.about-me-title {
+.section-title {
     font-family: 'Indie Flower', cursive;
     font-size: 50px;
     margin: auto;
@@ -24,44 +24,6 @@
 }
 
 /* ==== OTHER INFORMATION==== */
-
-/* .other-information {
-} */
-.other-information-container {
-    margin: 30px auto;
-    width: 130px;
-    height: 30px;
-    padding-left: 0;
-    text-align: center;
-}
-
-.other-information-button {
-    text-align: center;
-    font-size: 20px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    outline: none;
-    border: none;
-    background-color: rgb(77, 212, 212);
-    padding: 20px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.other-information-button:hover {
-    background-color: rgb(51, 141, 141);
-}
-.other-information-content,
-.other-information-lenguages {
-    display: none;
-    margin: auto;
-}
-.list-separator {
-    padding: 20px;
-}
 
 /* ====NETWORKS==== */
 .networks {
