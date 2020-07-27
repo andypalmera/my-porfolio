@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+    width: 25vw;
+    margin: auto;
 }
 .buttons-nav {
     margin: 10px;
@@ -14,4 +16,9 @@
 }
 .buttons-nav:hover {
     background-color: rgb(47, 45, 45);
+}
+@media (max-width: 768px) {
+    .buttons-nav {
+        height: 3vw;
+    }
 }

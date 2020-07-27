@@ -3,13 +3,22 @@
     text-align: center;
     font-size: 70px;
     margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: 'Indie Flower', cursive;
-    height: 80px;
+    line-height: 70px;
 }
 .header-slogan {
     text-align: center;
     font-size: 25px;
     margin-top: 0;
+    margin-bottom: 10px;
     font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 50px;
+    }
+    .header-slogan {
+        font-size: 20px;
+    }
 }

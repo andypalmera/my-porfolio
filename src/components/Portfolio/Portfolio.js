@@ -10,7 +10,7 @@ import './Portfolio.css';
 
 const Portfolio = () => {
     return (
-        <section className="portfolio">
+        <section className="portfolio" id="portfolio">
             <h3 className="section-title">
                 <span className="simbol-2">{'<'}</span> Portfolio <span className="simbol-2">{'/>'}</span>
             </h3>

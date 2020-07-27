@@ -1,34 +1,69 @@
+.nav-menu {
+    height: 38vw;
+}
 .nav-menu-image-container {
-    width: 600px;
+    width: 80%;
     margin: auto;
-    background-image: url(../../static/img/pantalla.svg);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    position: relative;
+}
+.nav-menu-image-containe img {
+    width: 100%;
+    height: auto;
 }
 .nav-menu-items-container {
-    background-color: transparent;
-    width: 400px;
-    position: relative;
-    color: black;
-    top: -300px;
-    margin: auto;
-    height: 60px;
+    position: absolute;
+    bottom: 15%;
 }
-.nav-menu-title {
-    text-align: center;
-    font-size: 50px;
-    text-decoration: none;
+
+.nav-menu-link {
+    background-color: transparent;
+    margin: auto;
     display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+
     color: black;
-    padding: 20px;
     font-family: 'Indie Flower', cursive;
+    font-size: 4vw;
     font-weight: bold;
 }
 .pencil {
-    width: 200px;
+    width: 20vw;
     margin: auto;
     display: block;
 }
 .simbol {
-    color: rgb(223, 216, 117);
-    font-size: 80px;
-    font-weight: bold;
+    font-size: 2em;
+}
+@media (max-width: 768px) {
+    .nav-menu {
+        height: 68vw;
+    }
+    .nav-menu-image-container {
+        width: 90%;
+    }
+    .nav-menu-link {
+        background-color: transparent;
+        margin: auto;
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+
+        color: black;
+        font-family: 'Indie Flower', cursive;
+        font-size: 6vw;
+        font-weight: bold;
+    }
+    .pencil {
+        width: 30vw;
+        margin: auto;
+        display: block;
+    }
 }

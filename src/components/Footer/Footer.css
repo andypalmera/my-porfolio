@@ -1,0 +1,13 @@
+.footer {
+    margin-top: 50px;
+}
+.footer-container {
+    background-color: rgb(218, 118, 118);
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.coder-name {
+    font-weight: bold;
+}

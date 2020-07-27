@@ -1,0 +1,21 @@
+.contact-me {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.contacte-me-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contacte-me-item {
+    font-size: 20px;
+    color: black;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+}
+.contacte-me-item i {
+    color: rgb(77, 212, 212);
+    font-size: 20px;
+    /* padding-right: 5px; */
+}

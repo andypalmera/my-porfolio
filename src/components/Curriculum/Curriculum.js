@@ -4,7 +4,7 @@ import './Curriculum.css';
 
 const Curriculum = () => {
     return (
-        <section className="curriculum">
+        <section className="curriculum" id="curriculum">
             <h3 className="section-title">
                 <span className="simbol-2">{'<'}</span> Curriculum <span className="simbol-2">{'/>'}</span>
             </h3>

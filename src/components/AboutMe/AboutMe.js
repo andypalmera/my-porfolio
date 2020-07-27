@@ -4,7 +4,7 @@ import OtherInformation from '../OtherInformation/OtherInformation';
 
 const AboutMe = () => {
     return (
-        <section className="about-me">
+        <section className="about-me" id="about-me">
             <div className="about-me-main-container">
                 <h3 className="section-title">
                     <span className="simbol-2">{'<'}</span> About Me <span className="simbol-2">{'/>'}</span>
