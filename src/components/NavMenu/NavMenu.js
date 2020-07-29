@@ -5,33 +5,6 @@ import PencilImage from '../../static/img/lapiz.svg';
 import ButtonsNav from '../ButtonsNav/ButtonsNav';
 
 export default class NavMenu extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            marginIdItem: '',
-        };
-    }
-    // switchId = (e) => {
-    //     switch (e.target.id) {
-    //         case 'about-me':
-    //             this.setState({
-    //                 marginIdItem: 'about-me-margin',
-    //             });
-    //             break;
-    //         case 'curriculum':
-    //             this.setState({
-    //                 marginIdItem: 'curriculum-margin',
-    //             });
-    //             break;
-
-    //         default:
-    //             break;
-    //     }
-
-    //         setTimeout(this.setState({
-    //             marginIdItem:'',
-    //         }), 5000)
-    // };
     render() {
         return (
             <section className="nav-menu">
