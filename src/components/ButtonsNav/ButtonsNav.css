@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     padding: 20px;
-    width: 25vw;
     margin: auto;
+    width: 200px;
+    /* display: block; */
 }
 .buttons-nav {
     margin: 10px;
@@ -13,12 +14,15 @@
     background-color: rgb(116, 114, 114);
     border: none;
     outline: none;
+    transition: ease 0.5s;
 }
 .buttons-nav:hover {
     background-color: rgb(47, 45, 45);
+    transition: ease 0.5s;
 }
+
 @media (max-width: 768px) {
-    .buttons-nav {
-        height: 3vw;
+    .buttons-nav-container {
+        display: none;
     }
 }

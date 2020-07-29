@@ -4,7 +4,14 @@ body {
     padding: 0;
     background-image: url(./static/img/background.jpg);
     background-repeat: no-repeat;
-    /* background-position: bottom; */
     background-attachment: fixed;
     background-size: cover;
+}
+.App {
+    margin: 0;
+    background-image: url(./static/img/278297-P5VT83-379.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: right;
+    background-size: 40%;
 }

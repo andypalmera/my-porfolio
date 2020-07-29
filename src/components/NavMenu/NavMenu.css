@@ -17,7 +17,48 @@
 }
 .nav-menu-items-container {
     position: absolute;
-    bottom: 15%;
+    bottom: 5%;
+    overflow: hidden;
+    width: 60%;
+}
+.nav-menu-links-container {
+    display: flex;
+    position: relative;
+    width: 400%;
+    animation: switch 20s infinite ease;
+}
+
+@keyframes switch {
+    0% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: 0;
+    }
+
+    27% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -100%;
+    }
+
+    52% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -200%;
+    }
+
+    77% {
+        margin-left: -300%;
+    }
+    99% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: 0;
+    }
 }
 
 .nav-menu-link {
@@ -27,11 +68,15 @@
     width: 100%;
     text-align: center;
     text-decoration: none;
-
+    position: relative;
+    bottom: 90%;
     color: black;
     font-family: 'Indie Flower', cursive;
     font-size: 4vw;
     font-weight: bold;
+}
+.nav-menu-link:target {
+    left: 0;
 }
 .pencil {
     width: 20vw;
@@ -39,7 +84,16 @@
     display: block;
 }
 .simbol {
-    font-size: 2em;
+    font-size: 2.5em;
+    color: khaki;
+}
+
+/* ===== FUNTION STYLES ==== */
+#about-me-margin {
+    margin-left: -1%;
+}
+#curriculum-margin {
+    margin-left: -100%;
 }
 @media (max-width: 768px) {
     .nav-menu {
@@ -65,5 +119,8 @@
         width: 30vw;
         margin: auto;
         display: block;
+    }
+    .nav-menu-items-container {
+        bottom: 25%;
     }
 }

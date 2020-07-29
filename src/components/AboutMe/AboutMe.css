@@ -6,7 +6,7 @@
     font-size: 50px;
     margin: 30px auto;
     display: block;
-    width: 500px;
+
     text-align: center;
 }
 .about-me-content {
@@ -37,7 +37,18 @@
 }
 .networks a i {
     color: rgb(117, 125, 151);
+    transition: ease 0.5s;
 }
 .networks a:hover i {
     color: rgb(72, 77, 93);
+    transition: ease 0.5s;
+}
+
+@media (max-width: 768px) {
+    .about-me-content {
+        padding: 20px 50px;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 30px;
+    }
 }

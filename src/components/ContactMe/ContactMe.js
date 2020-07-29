@@ -9,13 +9,13 @@ const ContactMe = () => {
             </h3>
             <div className="contacte-me-container">
                 <p className="contacte-me-item">
-                    <i class="fas fa-envelope"></i> andypalmera00@gmail.com
+                    <i className="fas fa-envelope"></i> andypalmera00@gmail.com
                 </p>
                 <p className="contacte-me-item">
-                    <i class="fas fa-mobile-alt"></i> + 54 9 1127920790
+                    <i className="fas fa-mobile-alt"></i> + 54 9 1127920790
                 </p>
                 <p className="contacte-me-item">
-                    <i class="fas fa-map-marker-alt"></i> Av. Rivadavia 1239, Ciudad Autonoma de Buenos Aires, Argentina
+                    <i className="fas fa-map-marker-alt"></i> Av. Rivadavia 1239, Ciudad Autonoma de Buenos Aires, Argentina
                 </p>
             </div>
         </section>

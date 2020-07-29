@@ -18,10 +18,10 @@ const AboutMe = () => {
             <OtherInformation />
             <div className="networks">
                 <a href="https://github.com/andypalmera/" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github-square"></i>
+                    <i className="fab fa-github-square"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/andrea-palmera-731114189/" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                 </a>
             </div>
         </section>
