@@ -11,7 +11,7 @@ export default class NavMenu extends React.Component {
                 <div className="nav-menu-image-container">
                     {<img src={ComputerImage} alt="screen" />}
                     <div className="nav-menu-items-container">
-                        <div className="nav-menu-links-container " id={this.state.marginIdItem}>
+                        <div className="nav-menu-links-container ">
                             <a href="#about-me" id="about-me-nav" className="uno nav-menu-link">
                                 <span className="simbol"> {'<'}</span> About Me<span className="simbol">{'/>'}</span>
                             </a>
