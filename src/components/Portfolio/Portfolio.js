@@ -18,7 +18,7 @@ const Portfolio = () => {
                 <a href="https://andypalmera.github.io/reloj-react/" target="_blank" rel="noopener noreferrer">
                     <img alt="clock-react" src={Clock}></img>
                 </a>
-                <a href="https://to-do-list-bice.vercel.app/" target="_blank">
+                <a href="https://to-do-list-bice.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <img alt="my-proyect" src={ToDoList}></img>
                 </a>
                 <a href="https://andypalmera.github.io/layout-website-sample/" target="_blank" rel="noopener noreferrer">
@@ -30,7 +30,7 @@ const Portfolio = () => {
                 <a href="https://wiki-image-app.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <img alt="my-proyect" src={ImageSearch}></img>
                 </a>
-                <a href="www.google.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://wiki-image-app.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <img alt="my-proyect" src={MovieSearchEngine}></img>
                 </a>
             </div>

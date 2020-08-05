@@ -2,7 +2,6 @@ import React from 'react';
 import ComputerImage from '../../static/img/pantalla.svg';
 import './NavMenu.css';
 import PencilImage from '../../static/img/lapiz.svg';
-import ButtonsNav from '../ButtonsNav/ButtonsNav';
 
 export default class NavMenu extends React.Component {
     render() {
@@ -27,7 +26,6 @@ export default class NavMenu extends React.Component {
                         </div>
 
                         <img src={PencilImage} alt="pencil" className="pencil" />
-                        <ButtonsNav switchId={this.switchId} />
                     </div>
                 </div>
             </section>
