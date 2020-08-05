@@ -4,22 +4,18 @@
     flex-wrap: wrap;
 }
 .portfolio-image-container a {
-    margin: 20px 20px;
+    margin: 20px;
     display: block;
     /* padding: 10px; */
     /* padding-bottom: 5px; */
     width: 400px;
-}
-.portfolio-image-container a:hover {
-    /* padding: 5px;
-    padding-bottom: 0px;
-    border: rgba(72, 77, 93, 0.342) solid 0.5px; */
 }
 .portfolio-image-container a img {
     border: rgba(72, 77, 93, 0.342) solid 1px;
     box-sizing: border-box;
     width: 100%;
     height: auto;
+
     padding: 10px;
 }
 .portfolio-image-container a img:hover {
@@ -29,5 +25,8 @@
 @media (max-width: 768px) {
     .portfolio-image-container a {
         margin: 50px 20px;
+    }
+    .portfolio-image-container a {
+        margin: 10px;
     }
 }
